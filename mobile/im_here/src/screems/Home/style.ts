@@ -24,6 +24,7 @@ export const stylesheet = StyleSheet.create({
       color: '#FFF',
       backgroundColor: '#1F1E25',
       marginRight: 7,
+      
     },
     addButtom: {
       backgroundColor: '#31CF67',
@@ -42,5 +43,10 @@ export const stylesheet = StyleSheet.create({
       marginBottom: 36,
       width: '100%',
       flexDirection: 'row',
+    },
+    nonParticipantComponent: {
+      color: '#FFF',
+      textAlign: 'center',
+      fontSize: 16,
     }
   });

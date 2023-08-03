@@ -1,8 +1,16 @@
-import { Home } from "./src/Home";
+import { StatusBar } from "expo-status-bar";
+import { Home } from "./src/screems/Home";
 
 export default function App() {
   return (
-    <Home />
+    <>
+      <StatusBar 
+        style="light"
+        translucent
+        backgroundColor="transparent"
+      />
+      <Home />
+    </>
   )
 }
 
